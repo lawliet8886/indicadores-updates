@@ -1,0 +1,20 @@
+# Binários e instaladores não devem ir para o Git normal
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.db
+*.log
+*.tmp
+build/
+dist/
+__pycache__/
+.venv/
+venv/
+
+# Windows / IDE
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
